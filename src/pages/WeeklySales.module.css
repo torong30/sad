@@ -1,0 +1,621 @@
+.frameChild,
+.frameItem {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild {
+  height: 646px;
+  background-color: var(--color-silver);
+  display: none;
+}
+.frameItem {
+  height: 61px;
+  background-color: var(--color-white);
+  z-index: 1;
+}
+.frameInner {
+  height: 56px;
+  width: 280px;
+  position: relative;
+  background-color: var(--color-chocolate);
+  display: none;
+}
+.pngaaa1Icon {
+  width: 29px;
+  height: 23px;
+  position: relative;
+  object-fit: cover;
+  z-index: 4;
+}
+.pngaaa1Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.dashboard {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-istok-web);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 4;
+}
+.dayWeekMonth,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 0 var(--padding-5xs) var(--padding-lgi);
+  background-color: var(--color-chocolate);
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  z-index: 3;
+}
+.dayWeekMonth {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 0;
+}
+.userManagement {
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+}
+.userManagementWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) var(--padding-lg) 0;
+}
+.categories {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+}
+.categoriesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 14px var(--padding-11xs);
+}
+.inStocks {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+}
+.inStocksWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl) var(--padding-8xs);
+}
+.inventory {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+}
+.inventoryWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-9xs);
+}
+.salesOrder {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+}
+.frameDiv,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.inventoryReport {
+  width: 212px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 3;
+}
+.frameContainer {
+  width: 237px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-12xs);
+}
+.adminLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.image2Icon,
+.image3Icon,
+.image5Icon {
+  position: absolute;
+  top: 122px;
+  left: 16px;
+  width: 41px;
+  height: 39px;
+  object-fit: cover;
+  z-index: 3;
+}
+.image3Icon,
+.image5Icon {
+  top: 177px;
+  left: 13px;
+  width: 46px;
+  height: 44px;
+}
+.image5Icon {
+  top: 236px;
+  left: 19px;
+  width: 31px;
+  height: 41px;
+}
+.administratorXxl1Icon,
+.image6Icon,
+.image7Icon {
+  position: absolute;
+  top: 293px;
+  left: 16px;
+  width: 40px;
+  height: 32px;
+  object-fit: cover;
+  z-index: 3;
+}
+.administratorXxl1Icon,
+.image7Icon {
+  top: 357px;
+  left: 22px;
+  width: 28px;
+  height: 37px;
+}
+.administratorXxl1Icon {
+  top: 66px;
+  left: 16px;
+  width: 34px;
+  height: 39px;
+  cursor: pointer;
+  z-index: 4;
+}
+.imageAdminImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.dayWeekMonthParent {
+  width: 283px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 var(--padding-lgi);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-6xs);
+  min-width: 283px;
+}
+.dashboard1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  text-align: left;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 32px;
+  width: 80px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.day {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.dayWeekMonth1,
+.rectangleContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleContainer {
+  align-self: stretch;
+  background-color: var(--color-darkgray);
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-mid) 0;
+  z-index: 1;
+}
+.dayWeekMonth1 {
+  width: 85px;
+  flex-direction: column;
+  padding: var(--padding-65xl) var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.frameChild1 {
+  height: 32px;
+  width: 80px;
+  position: relative;
+  background-color: var(--color-dimgray);
+  display: none;
+}
+.week {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 59px;
+  z-index: 2;
+}
+.dayWeekMonth2,
+.rectangleParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  background-color: var(--color-dimgray);
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-3xs) 0;
+  z-index: 1;
+}
+.dayWeekMonth2 {
+  width: 85px;
+  flex-direction: column;
+  padding: var(--padding-65xl) var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.frameChild2 {
+  height: 32px;
+  width: 80px;
+  position: relative;
+  background-color: var(--color-dimgray);
+  display: none;
+  z-index: 0;
+}
+.month {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-istok-web);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 2;
+}
+.dashboard2 {
+  position: absolute;
+  height: calc(100% - 3px);
+  top: 3px;
+  bottom: 0;
+  left: 13px;
+  background-color: var(--color-khaki);
+  width: 471px;
+  z-index: 1;
+}
+.image1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.dashboardGroup {
+  height: 243px;
+  width: 484px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -240px;
+  left: -387px;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-11xs) 0 0;
+  background-color: var(--color-dimgray);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper1 {
+  width: 82px;
+  flex-direction: column;
+  padding: var(--padding-65xl) 0 0;
+  box-sizing: border-box;
+}
+.dashboardParent,
+.financeSummaryContainer,
+.frameGroup,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dashboardParent {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+}
+.financeSummaryContainer,
+.frameGroup {
+  flex: 1;
+  max-width: 100%;
+}
+.financeSummaryContainer {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 302px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+}
+.frameGroup {
+  flex-direction: row;
+  gap: 15px;
+}
+.image35Icon {
+  width: 131px;
+  height: 37px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameChild3 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-khaki);
+  width: 277px;
+  z-index: 1;
+}
+.totalIncome {
+  position: absolute;
+  top: 60px;
+  left: 122px;
+  display: inline-block;
+  width: 173px;
+  height: 29px;
+  z-index: 2;
+}
+.rectangleParent2 {
+  height: 90px;
+  flex: 1;
+  position: relative;
+}
+.dashboardContainerInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 0;
+}
+.dashboardContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.frameTextarea {
+  border: 0;
+  background-color: var(--color-khaki);
+  height: 90px;
+  width: 277px;
+  outline: 0;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 64px 111px;
+  box-sizing: border-box;
+  font-family: var(--font-istok-web);
+  font-size: var(--font-size-lg);
+  z-index: 1;
+}
+.dashboardContainerParent,
+.frameChild4,
+.frameTextarea {
+  display: flex;
+  align-items: flex-start;
+  color: var(--color-gray);
+}
+.frameChild4 {
+  border: 0;
+  background-color: var(--color-khaki);
+  height: 91px;
+  width: 277px;
+  outline: 0;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 65px 142px;
+  box-sizing: border-box;
+  font-family: var(--font-istok-web);
+  font-size: var(--font-size-lg);
+  z-index: 1;
+}
+.dashboardContainerParent {
+  width: 325px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 18.5px;
+  min-width: 325px;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.image39Icon {
+  height: 36px;
+  width: 41px;
+  position: absolute;
+  margin: 0 !important;
+  right: 21px;
+  bottom: 15px;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameParent,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: row;
+  position: relative;
+  gap: 81px;
+}
+.rectangleParent {
+  margin-top: -79px;
+  background-color: var(--color-silver);
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-istok-web);
+}
+.inventorySystem,
+.salesAnd {
+  margin: 0;
+}
+.salesAndInventoryContainer {
+  margin-right: -98px;
+  width: 891px;
+  height: 93px;
+  position: relative;
+  font-size: var(--font-size-26xl);
+  font-weight: 700;
+  font-family: var(--font-jost);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+  margin-top: -567px;
+}
+.weeklySales {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  min-height: 584px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+  .dashboardContainerParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .salesAndInventoryContainer {
+    font-size: var(--font-size-17xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .dayWeekMonthParent,
+  .rectangleGroup {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .categories,
+  .dashboard,
+  .dashboard1,
+  .inStocks,
+  .inventory,
+  .inventoryReport,
+  .salesOrder,
+  .userManagement {
+    font-size: var(--font-size-xl);
+  }
+  .day,
+  .month,
+  .week {
+    font-size: var(--font-size-base);
+  }
+  .dashboardParent {
+    flex-wrap: wrap;
+  }
+  .totalIncome {
+    font-size: var(--font-size-base);
+  }
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+  .salesAndInventoryContainer {
+    font-size: var(--font-size-8xl);
+  }
+}

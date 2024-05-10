@@ -1,0 +1,449 @@
+.frameChild,
+.frameItem {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild {
+  height: 646px;
+  background-color: var(--color-silver);
+  display: none;
+}
+.frameItem {
+  height: 61px;
+  background-color: var(--color-white);
+  z-index: 1;
+}
+.frameInner {
+  height: 173px;
+  width: 1166px;
+  position: relative;
+  background-color: var(--color-chocolate);
+  display: none;
+  max-width: 100%;
+}
+.mrbaker3Icon {
+  height: 120px;
+  width: 130px;
+  position: relative;
+  border-radius: var(--br-71xl);
+  object-fit: contain;
+  z-index: 2;
+}
+.baker {
+  color: #a8d42b;
+}
+.mrbaker {
+  margin: 0;
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 3px 0 0#000, 0 3px 0#000, -3px 0 0#000, 0-3px 0#000;
+  z-index: 2;
+}
+.nbpBuilding38 {
+  flex: 1;
+  position: relative;
+  z-index: 4;
+}
+.inventoryReportLabel,
+.mrbakerParent,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inventoryReportLabel {
+  width: 306px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-libre-franklin);
+}
+.mrbakerParent,
+.rectangleGroup {
+  max-width: 100%;
+}
+.mrbakerParent {
+  width: 360px;
+  flex-direction: column;
+  gap: 29px;
+  min-width: 360px;
+}
+.rectangleGroup {
+  align-self: stretch;
+  background-color: var(--color-chocolate);
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-24xl) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.dashboard1 {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+}
+.dashboardWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) var(--padding-2xs);
+}
+.userManagement {
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+}
+.userManagementWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) var(--padding-mini) 0;
+}
+.categories,
+.inStocks {
+  position: relative;
+  z-index: 2;
+}
+.categories {
+  align-self: stretch;
+  cursor: pointer;
+}
+.inStocks {
+  flex: 1;
+}
+.inStocksWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+}
+.inStocksWrapper,
+.inventorySalesRecord,
+.inventorySalesRecordWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inventorySalesRecord {
+  flex: 1;
+  flex-direction: column;
+  gap: 13px;
+}
+.inventorySalesRecordWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xl) var(--padding-11xs);
+}
+.inventory,
+.salesOrder {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+}
+.inventorySalesOrderRecords {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  gap: var(--gap-6xs);
+}
+.inventoryReport {
+  width: 212px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.image2Icon {
+  position: absolute;
+  top: 121px;
+  left: 14px;
+  width: 41px;
+  height: 39px;
+  object-fit: contain;
+  z-index: 2;
+}
+.image3Icon,
+.image5Icon,
+.image6Icon,
+.image7Icon {
+  position: absolute;
+  top: 176px;
+  left: 11px;
+  width: 46px;
+  height: 44px;
+  object-fit: contain;
+  z-index: 2;
+}
+.image5Icon,
+.image6Icon,
+.image7Icon {
+  top: 235px;
+  left: 17px;
+  width: 31px;
+  height: 41px;
+}
+.image6Icon,
+.image7Icon {
+  top: 292px;
+  left: 14px;
+  width: 40px;
+  height: 32px;
+}
+.image7Icon {
+  top: 356px;
+  left: 20px;
+  width: 28px;
+  height: 37px;
+  object-fit: cover;
+}
+.administratorXxl1Icon,
+.pngaaa1Icon {
+  position: absolute;
+  top: 25px;
+  left: 17px;
+  width: 29px;
+  height: 23px;
+  object-fit: contain;
+  z-index: 2;
+}
+.administratorXxl1Icon {
+  top: 65px;
+  left: 14px;
+  width: 34px;
+  height: 39px;
+}
+.rectangleContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.inventorySalesContainer {
+  width: 284px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) 0 var(--padding-mid) 66px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 4px;
+}
+.image29Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 1;
+}
+.image29Wrapper {
+  height: 153px;
+  width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.image30Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.image30Wrapper {
+  height: 153px;
+  width: 207px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.image31Icon,
+.image34Icon {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 204px;
+  height: 121px;
+  object-fit: contain;
+  z-index: 1;
+}
+.image34Icon {
+  top: 0;
+  left: 167px;
+  width: 131px;
+  height: 37px;
+  object-fit: cover;
+  z-index: 2;
+}
+.image31Parent {
+  height: 153px;
+  width: 298px;
+  position: relative;
+}
+.image38Icon {
+  height: 36px;
+  width: 41px;
+  position: absolute;
+  margin: 0 !important;
+  right: 24px;
+  bottom: 17px;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 1;
+}
+.mRBakerLabel,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mRBakerLabel {
+  flex-direction: row;
+  position: relative;
+  gap: 54px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-istok-web);
+}
+.rectangleParent {
+  margin-top: -79px;
+  align-self: stretch;
+  background-color: var(--color-silver);
+  flex-direction: column;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-snow-200);
+  font-family: var(--font-saira-stencil-one);
+}
+.inventorySystem,
+.salesAnd {
+  margin: 0;
+}
+.salesAndInventoryContainer {
+  margin-right: -98px;
+  width: 891px;
+  height: 93px;
+  position: relative;
+  font-size: var(--font-size-26xl);
+  font-weight: 700;
+  font-family: var(--font-jost);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+  margin-top: -567px;
+}
+.dashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  min-height: 584px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .mRBakerLabel {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .mrbaker {
+    font-size: 48px;
+  }
+  .salesAndInventoryContainer {
+    font-size: var(--font-size-17xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .mrbaker3Icon {
+    flex: 1;
+  }
+  .mrbakerParent {
+    flex: 1;
+    min-width: 100%;
+  }
+  .rectangleGroup {
+    flex-wrap: wrap;
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .mRBakerLabel {
+    gap: 27px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mrbaker {
+    font-size: var(--font-size-17xl);
+  }
+  .nbpBuilding38 {
+    font-size: var(--font-size-base);
+  }
+  .categories,
+  .dashboard1,
+  .inStocks,
+  .inventory,
+  .inventoryReport,
+  .salesOrder,
+  .userManagement {
+    font-size: var(--font-size-xl);
+  }
+  .inventorySalesContainer {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .salesAndInventoryContainer {
+    font-size: var(--font-size-8xl);
+  }
+}
