@@ -304,7 +304,7 @@
   width: 610px;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 9px;
+  gap: var(--gap-4xs);
 }
 .frameWrapper {
   justify-content: flex-end;
@@ -595,7 +595,7 @@
   overflow: hidden;
   align-items: flex-end;
   padding: 36px 0 var(--padding-14xl);
-  gap: 44px;
+  gap: var(--gap-25xl);
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
@@ -621,7 +621,7 @@
     gap: var(--gap-base);
   }
   .signUp {
-    gap: 22px;
+    gap: var(--gap-3xl);
   }
 }
 @media screen and (max-width: 675px) {

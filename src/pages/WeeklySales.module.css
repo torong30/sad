@@ -52,7 +52,7 @@
 .rectangleGroup {
   cursor: pointer;
   border: 0;
-  padding: 12px 0 var(--padding-5xs) var(--padding-lgi);
+  padding: var(--padding-xs) 0 var(--padding-5xs) var(--padding-lgi);
   background-color: var(--color-chocolate);
   flex: 1;
   justify-content: flex-start;
@@ -88,7 +88,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-10xs) 14px var(--padding-11xs);
+  padding: 0 var(--padding-10xs) var(--padding-sm) var(--padding-11xs);
 }
 .inStocks {
   flex: 1;
@@ -460,7 +460,7 @@
   outline: 0;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 64px 111px;
+  padding: var(--padding-45xl) 111px;
   box-sizing: border-box;
   font-family: var(--font-istok-web);
   font-size: var(--font-size-lg);

@@ -136,7 +136,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 27px 0 var(--padding-9xl);
+  padding: 0 var(--padding-8xl) 0 var(--padding-9xl);
 }
 .rectangleGroup {
   background-color: var(--color-black);
@@ -309,7 +309,7 @@
 .mILabelInner {
   width: 511px;
   justify-content: flex-end;
-  padding: 0 37px;
+  padding: 0 var(--padding-18xl);
   box-sizing: border-box;
 }
 .address {
@@ -881,7 +881,7 @@
 .frameParent {
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 17px;
+  gap: var(--gap-mid);
 }
 .rectangleParent {
   margin-top: -79px;

@@ -138,7 +138,7 @@
 .inventorySalesRecord {
   flex: 1;
   flex-direction: column;
-  gap: 13px;
+  gap: var(--gap-smi);
 }
 .inventorySalesRecordWrapper {
   align-self: stretch;
@@ -399,7 +399,7 @@
 }
 @media screen and (max-width: 1025px) {
   .mrbaker {
-    font-size: 48px;
+    font-size: var(--font-size-29xl);
   }
   .salesAndInventoryContainer {
     font-size: var(--font-size-17xl);

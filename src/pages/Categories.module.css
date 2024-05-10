@@ -1,0 +1,705 @@
+.frameChild {
+  height: 646px;
+  background-color: var(--color-silver);
+  display: none;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  align-self: stretch;
+  position: relative;
+}
+.frameItem {
+  height: 61px;
+  background-color: var(--color-white);
+  z-index: 1;
+}
+.frameInner {
+  height: 412px;
+  background-color: var(--color-black);
+  display: none;
+}
+.pngaaa1Icon {
+  height: 23px;
+  width: 29px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 2;
+}
+.imageContainerE {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-11xs);
+}
+.administratorXxl1Icon {
+  width: 34px;
+  height: 39px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 2;
+}
+.pngholder,
+.pngholderWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.pngholder {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.pngholderWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xl) var(--padding-10xs) var(--padding-5xl);
+}
+.imageContainersChild {
+  height: 56px;
+  width: 83px;
+  position: relative;
+  background-color: var(--color-chocolate);
+  display: none;
+}
+.image2Icon {
+  height: 39px;
+  width: 41px;
+  position: relative;
+  object-fit: contain;
+  z-index: 3;
+}
+.imageContainers {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-xl) var(--padding-4xs)
+    var(--padding-3xl);
+  background-color: var(--color-chocolate);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.image3Icon {
+  height: 44px;
+  width: 46px;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 2;
+}
+.image3Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg) var(--padding-3xs) var(--padding-lgi);
+}
+.image5Icon {
+  height: 41px;
+  width: 31px;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 2;
+}
+.image5Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xl) var(--padding-3xs);
+}
+.image6Icon {
+  height: 32px;
+  width: 40px;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 2;
+}
+.image6Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl) var(--padding-3xs) var(--padding-3xl);
+}
+.image7Icon {
+  height: 37px;
+  width: 28px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 2;
+}
+.image7Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xl) 0 var(--padding-9xl);
+}
+.rectangleGroup {
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 var(--padding-3xl);
+  gap: var(--gap-4xs);
+  z-index: 1;
+}
+.categories1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.categoriesWrapper {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.image35Icon {
+  height: 37px;
+  width: 131px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-khaki);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameChild1 {
+  height: 49px;
+  width: 977px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  display: none;
+  max-width: 100%;
+}
+.isActive,
+.productCategories {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 3;
+}
+.productCategories {
+  width: 260px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.isActive {
+  align-self: stretch;
+}
+.isActiveIndicator {
+  width: 161px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.lowInventoryThreshold {
+  align-self: stretch;
+  position: relative;
+  z-index: 3;
+}
+.lowInventoryThresholdWrapper,
+.rectangleParent1 {
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-4xs) var(--padding-7xs);
+  gap: var(--gap-20xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.category1,
+.category2 {
+  position: absolute;
+  top: 53px;
+  left: 9px;
+  display: inline-block;
+  width: 99px;
+  height: 29px;
+  min-width: 99px;
+  z-index: 2;
+}
+.category2 {
+  top: 163px;
+  left: 7px;
+}
+.itemA1 {
+  margin: 0;
+}
+.itemA,
+.itemB,
+.itemC {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.itemB,
+.itemC {
+  z-index: 3;
+}
+.itemC {
+  z-index: 4;
+}
+.itemAParent {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+}
+.image11Icon,
+.image8Icon,
+.image9Icon {
+  width: 33px;
+  height: 18px;
+  position: relative;
+  object-fit: contain;
+  z-index: 2;
+}
+.imageContainerF {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-45xl) 0 0;
+  gap: var(--gap-8xs);
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.wrapper {
+  width: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.image14Icon,
+.image15Icon,
+.image16Icon {
+  align-self: stretch;
+  height: 19px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.image14Parent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameParent1,
+.frameWrapper1,
+.image14Parent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper1 {
+  width: 50px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.frameParent1 {
+  position: absolute;
+  top: 87px;
+  left: 26px;
+  width: 897px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-mid);
+}
+.itemA3 {
+  margin: 0;
+}
+.itemA2 {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.itemB2 {
+  margin: 0;
+}
+.itemB1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 3;
+}
+.itemC2 {
+  margin: 0;
+}
+.itemC1 {
+  flex: 1;
+  position: relative;
+  z-index: 4;
+}
+.itemC4 {
+  margin: 0;
+}
+.itemC3 {
+  flex: 1;
+  position: relative;
+  z-index: 5;
+  margin-left: -132px;
+}
+.frameWrapper2,
+.itemAGroup,
+.itemCParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.itemCParent {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameWrapper2,
+.itemAGroup {
+  flex-direction: column;
+}
+.itemAGroup {
+  align-self: stretch;
+}
+.frameWrapper2 {
+  width: 150px;
+  padding: var(--padding-9xs) var(--padding-lg) 0 0;
+  box-sizing: border-box;
+}
+.image10Icon,
+.image12Icon,
+.image13Icon {
+  width: 33px;
+  height: 18px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameWrapper3,
+.image10Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image10Parent {
+  gap: var(--gap-8xs);
+}
+.frameWrapper3 {
+  width: 97px;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.shapeContainerB {
+  width: 99px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.image17Icon,
+.image18Icon,
+.image19Icon {
+  align-self: stretch;
+  height: 19px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameParent2,
+.image17Parent {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameParent2 {
+  position: absolute;
+  top: 190px;
+  left: 26px;
+  width: 897px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-mid);
+}
+.frameChild2,
+.frameChild3,
+.lineDiv {
+  position: absolute;
+  top: 1px;
+  left: 254px;
+  border-right: 3px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 3px;
+  height: 289px;
+  z-index: 4;
+}
+.frameChild2,
+.frameChild3 {
+  left: 465px;
+  z-index: 3;
+}
+.frameChild3 {
+  top: 0;
+  left: 821px;
+  z-index: 4;
+}
+.rectangleContainer {
+  align-self: stretch;
+  height: 287px;
+  position: relative;
+  background-color: var(--color-khaki);
+  max-width: 100%;
+  z-index: 1;
+}
+.image20Icon,
+.image21Icon {
+  height: 35px;
+  width: 34px;
+  position: relative;
+  object-fit: cover;
+  min-height: 35px;
+  z-index: 1;
+}
+.image21Icon {
+  width: 33px;
+}
+.image20Parent,
+.salesInventorySystemTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.image20Parent {
+  width: 116px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.salesInventorySystemTitle {
+  width: 966px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameDiv,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.frameWrapper {
+  width: 1033px;
+  flex-direction: row;
+  padding: 0 var(--padding-9xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+}
+.image40Icon {
+  width: 41px;
+  height: 36px;
+  position: absolute;
+  margin: 0 !important;
+  right: 12px;
+  bottom: -1px;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameGroup,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  gap: 14px;
+  min-width: 693px;
+}
+.frameParent,
+.rectangleParent {
+  align-self: stretch;
+}
+.frameParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-mid);
+}
+.rectangleParent {
+  margin-top: -79px;
+  background-color: var(--color-silver);
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray);
+  font-family: var(--font-istok-web);
+}
+.inventorySystem,
+.salesAnd {
+  margin: 0;
+}
+.salesAndInventoryContainer {
+  margin-right: -98px;
+  width: 891px;
+  height: 93px;
+  position: relative;
+  font-size: var(--font-size-26xl);
+  font-weight: 700;
+  font-family: var(--font-jost);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+  margin-top: -567px;
+}
+.categories {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  min-height: 584px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+  .rectangleParent1 {
+    flex-wrap: wrap;
+  }
+  .rectangleContainer {
+    height: auto;
+    min-height: 287;
+  }
+  .frameGroup {
+    min-width: 100%;
+  }
+  .salesAndInventoryContainer {
+    font-size: var(--font-size-17xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .frameParent1,
+  .frameParent2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleGroup {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .categories1 {
+    font-size: var(--font-size-xl);
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .isActive,
+  .productCategories {
+    font-size: var(--font-size-xl);
+  }
+  .lowInventoryThreshold {
+    font-size: var(--font-size-base);
+  }
+  .rectangleParent1 {
+    gap: var(--gap-lgi);
+  }
+  .category1,
+  .category2 {
+    font-size: var(--font-size-base);
+  }
+  .salesAndInventoryContainer {
+    font-size: var(--font-size-8xl);
+  }
+}

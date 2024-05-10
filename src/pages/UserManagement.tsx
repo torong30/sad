@@ -11,20 +11,20 @@ const UserManagement: FunctionComponent = () => {
   }, [navigate]);
 
   const onImage2IconClick = useCallback(() => {
-    // Please sync "Categories" to the project
-  }, []);
+    navigate("/categories");
+  }, [navigate]);
 
   const onImage5IconClick = useCallback(() => {
-    // Please sync "Inventory" to the project
-  }, []);
+    navigate("/inventory");
+  }, [navigate]);
 
   const onImage6IconClick = useCallback(() => {
-    // Please sync "Sales" to the project
-  }, []);
+    navigate("/sales");
+  }, [navigate]);
 
   const onImage7IconClick = useCallback(() => {
-    // Please sync "report" to the project
-  }, []);
+    navigate("/report");
+  }, [navigate]);
 
   const onRectangleInput2Click = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='rectangleInput1']");

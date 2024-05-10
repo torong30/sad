@@ -14,20 +14,20 @@ const Dashboard: FunctionComponent = () => {
   }, [navigate]);
 
   const onCategoriesTextClick = useCallback(() => {
-    // Please sync "Categories" to the project
-  }, []);
+    navigate("/categories");
+  }, [navigate]);
 
   const onInventoryTextClick = useCallback(() => {
-    // Please sync "Inventory" to the project
-  }, []);
+    navigate("/inventory");
+  }, [navigate]);
 
   const onSalesOrderClick = useCallback(() => {
-    // Please sync "Sales" to the project
-  }, []);
+    navigate("/sales");
+  }, [navigate]);
 
   const onInventoryReportTextClick = useCallback(() => {
-    // Please sync "report" to the project
-  }, []);
+    navigate("/report");
+  }, [navigate]);
 
   const onImage29Click = useCallback(() => {
     const anchor = document.querySelector(
