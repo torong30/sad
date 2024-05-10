@@ -1,5 +1,5 @@
 import { FunctionComponent, useCallback } from "react";
-import FrameComponent1 from "../components/FrameComponent1";
+import FrameComponent1 from "../components/FrameComponent11";
 import { useNavigate } from "react-router-dom";
 import styles from "./Report.module.css";
 

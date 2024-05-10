@@ -20,8 +20,8 @@ const Login: FunctionComponent = () => {
   }, []);
 
   const onForgotPasswordTextClick = useCallback(() => {
-    // Please sync "Forgot_pass" to the project
-  }, []);
+    navigate("/forgot-pass");
+  }, [navigate]);
 
   const onRectangleClick = useCallback(() => {
     navigate("/dashboard");

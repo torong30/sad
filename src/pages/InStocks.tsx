@@ -1,5 +1,5 @@
 import { FunctionComponent, useCallback } from "react";
-import FrameComponent from "../components/FrameComponent";
+import FrameComponent from "../components/FrameComponent1";
 import { useNavigate } from "react-router-dom";
 import styles from "./InStocks.module.css";
 
@@ -148,7 +148,7 @@ const InStocks: FunctionComponent = () => {
                         className={styles.image25Icon}
                         loading="lazy"
                         alt=""
-                        src="/image-25@2x.png"
+                        src="/image-251@2x.png"
                       />
                       <div className={styles.frameDiv}>
                         <div className={styles.rectangleContainer}>

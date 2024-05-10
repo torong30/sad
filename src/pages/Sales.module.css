@@ -505,7 +505,7 @@
   flex: 1;
   flex-direction: column;
   position: relative;
-  gap: 10px;
+  gap: var(--gap-3xs);
   min-width: 693px;
 }
 .frameParent,

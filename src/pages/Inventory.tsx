@@ -1,5 +1,5 @@
 import { FunctionComponent, useCallback } from "react";
-import FrameComponent from "../components/FrameComponent";
+import FrameComponent from "../components/FrameComponent1";
 import { useNavigate } from "react-router-dom";
 import styles from "./Inventory.module.css";
 
@@ -145,7 +145,7 @@ const Inventory: FunctionComponent = () => {
                       <img
                         className={styles.image25Icon}
                         alt=""
-                        src="/image-25@2x.png"
+                        src="/image-251@2x.png"
                       />
                       <div className={styles.add}>
                         <div className={styles.buttonLabel}>

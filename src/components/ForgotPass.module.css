@@ -1,0 +1,526 @@
+.bake2Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.welcomeTo {
+  margin: 0;
+  position: absolute;
+  top: 36px;
+  left: 672px;
+  font-size: var(--font-size-31xl);
+  font-weight: 400;
+  font-family: var(--font-inknut-antiqua);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 634px;
+  height: 41px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.mr {
+  color: var(--color-snow-200);
+}
+.baker {
+  color: var(--color-yellowgreen-100);
+}
+.mrbaker {
+  margin: 0;
+  position: absolute;
+  top: 129px;
+  left: 724px;
+  font-size: var(--font-size-51xl);
+  font-weight: 400;
+  font-family: var(--font-saira-stencil-one);
+  text-align: left;
+  display: inline-block;
+  width: 416px;
+  height: 119px;
+  text-shadow: 3px 0 0#000, 0 3px 0#000, -3px 0 0#000, 0-3px 0#000;
+  z-index: 1;
+}
+.username {
+  position: absolute;
+  top: 336px;
+  left: 573px;
+  line-height: 26px;
+  color: var(--color-gray);
+  width: 137px;
+  height: 26px;
+}
+.culinaryAndBakery,
+.emailAddress,
+.username {
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  font-family: var(--font-istok-web);
+  text-align: left;
+  z-index: 1;
+}
+.emailAddress {
+  position: absolute;
+  top: 398px;
+  left: 526px;
+  line-height: 26px;
+  color: var(--color-gray);
+  width: 213px;
+  height: 26px;
+}
+.culinaryAndBakery {
+  width: 544px;
+  position: relative;
+  color: var(--color-snow-100);
+  flex-shrink: 0;
+  max-width: 117%;
+}
+.culinarySuppliesLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 89px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signUp {
+  width: 660px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 26px;
+  display: inline-block;
+  font-family: var(--font-istok-web);
+  color: var(--color-gray);
+  text-align: left;
+  white-space: nowrap;
+  max-width: 119%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.culinarySuppliesLabelParent {
+  position: absolute;
+  top: 221px;
+  left: 594px;
+  width: 556px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.bake3Icon,
+.mrbaker2Icon,
+.mrbaker3Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.mrbaker2Icon,
+.mrbaker3Icon {
+  top: 47px;
+  border-radius: var(--br-71xl);
+  width: 134px;
+  height: 134px;
+  z-index: 1;
+}
+.mrbaker3Icon {
+  top: 0;
+  left: 26px;
+  z-index: 3;
+}
+.mrbaker2Parent {
+  position: absolute;
+  top: 74px;
+  left: 540px;
+  width: 160px;
+  height: 181px;
+}
+.forgotPassChild,
+.forgotPassItem {
+  position: absolute;
+  top: 335px;
+  left: 710px;
+  border-radius: var(--br-26xl);
+  width: 366px;
+  height: 52px;
+  cursor: pointer;
+  z-index: 3;
+}
+.forgotPassItem {
+  top: 398px;
+  background-color: var(--color-gainsboro);
+}
+.pleaseChangeYour {
+  position: absolute;
+  top: 270px;
+  left: 717px;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  font-family: var(--font-istok-web);
+  color: var(--color-gray);
+  text-align: left;
+  width: 460px;
+  height: 36px;
+  z-index: 3;
+}
+.mr1 {
+  color: var(--color-snow-200);
+}
+.baker1 {
+  color: var(--color-yellowgreen-100);
+}
+.mrbaker1 {
+  margin: 0;
+  height: 119px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-51xl);
+  font-weight: 400;
+  font-family: var(--font-saira-stencil-one);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 3px 0 0#000, 0 3px 0#000, -3px 0 0#000, 0-3px 0#000;
+  max-width: 100%;
+  z-index: 3;
+}
+.mrbakerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.culinaryAndBakery1 {
+  width: 544px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  font-family: var(--font-istok-web);
+  color: var(--color-snow-100);
+  text-align: left;
+  max-width: 124%;
+  flex-shrink: 0;
+  z-index: 4;
+  margin-top: -31px;
+}
+.newSuppliesLabel {
+  position: absolute;
+  top: 66px;
+  left: 710px;
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.newPassword {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-istok-web);
+  color: var(--color-gray);
+  text-align: left;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 4;
+}
+.newPasswordInput {
+  width: 213px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+}
+.frameChild {
+  margin-left: -29px;
+  width: 366px;
+  position: relative;
+  border-radius: var(--br-26xl);
+  max-height: 100%;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 109%;
+  cursor: pointer;
+  z-index: 1;
+}
+.newPasswordInputParent,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vectorWrapper {
+  width: 337px;
+  flex-direction: column;
+  padding: 0;
+}
+.newPasswordInputParent {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+  row-gap: 20px;
+}
+.confirmPassword {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-istok-web);
+  color: var(--color-gray);
+  text-align: left;
+  z-index: 3;
+}
+.newPasswordLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.frameItem {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-gainsboro);
+  min-width: 238px;
+  max-width: 100%;
+  z-index: 1;
+}
+.newPasswordLabelParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.password {
+  width: 148px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 26px;
+  font-family: var(--font-istok-web);
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.cancelButton {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkorange-200);
+  width: 117px;
+  cursor: pointer;
+  z-index: 3;
+}
+.confirm {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-istok-web);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 197px;
+  height: 36px;
+  z-index: 4;
+}
+.cancelButtonParent {
+  align-self: stretch;
+  height: 49px;
+  position: relative;
+}
+.frameContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  min-width: 138px;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkorange-200);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+.cancel {
+  position: absolute;
+  top: 9px;
+  left: 22px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-istok-web);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 76px;
+  height: 36px;
+  min-width: 76px;
+  z-index: 4;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 49px;
+  position: relative;
+}
+.frameDiv {
+  width: 117px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+}
+.frameWrapper,
+.passwordParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.passwordParent {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.frameWrapper {
+  width: 523px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-4xl);
+}
+.frameParent {
+  position: absolute;
+  top: 323px;
+  left: 487px;
+  width: 589px;
+  gap: var(--gap-4xs);
+}
+.forgotPass {
+  margin: 0;
+  width: 1150px;
+  height: 665px;
+  background-color: var(--color-white);
+  max-width: 100%;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .welcomeTo {
+    font-size: var(--font-size-21xl);
+  }
+  .mrbaker {
+    font-size: var(--font-size-37xl);
+  }
+  .signUp {
+    font-size: var(--font-size-5xl);
+    line-height: 21px;
+  }
+  .mrbaker1 {
+    font-size: var(--font-size-37xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .newPasswordInputParent {
+    flex-wrap: wrap;
+  }
+  .forgotPass {
+    height: auto;
+    min-height: 665;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeTo {
+    font-size: var(--font-size-11xl);
+  }
+  .mrbaker {
+    font-size: var(--font-size-23xl);
+  }
+  .emailAddress,
+  .username {
+    line-height: 21px;
+  }
+  .culinaryAndBakery,
+  .emailAddress,
+  .username {
+    font-size: var(--font-size-xl);
+  }
+  .signUp {
+    font-size: var(--font-size-lg);
+    line-height: 16px;
+  }
+  .pleaseChangeYour {
+    font-size: var(--font-size-xl);
+  }
+  .mrbaker1 {
+    font-size: var(--font-size-23xl);
+  }
+  .confirmPassword,
+  .culinaryAndBakery1,
+  .newPassword {
+    font-size: var(--font-size-xl);
+  }
+  .password {
+    line-height: 21px;
+  }
+  .cancel,
+  .confirm,
+  .password {
+    font-size: var(--font-size-xl);
+  }
+}
